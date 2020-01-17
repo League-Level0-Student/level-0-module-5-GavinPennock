@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	String tall=JOptionPane.showInputDialog(null, "how tall are you(feet)");
 	int height=Integer.parseInt(tall);
 	if(height <36) {
-		JOptionPane.showMessageDialog(null, "");
+		JOptionPane.showMessageDialog(null, "wooo momma get some height built up!");
 	}
 }
 }

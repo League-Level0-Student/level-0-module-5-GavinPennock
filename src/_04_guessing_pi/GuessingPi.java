@@ -38,7 +38,7 @@ System.out.println(pi.charAt(10));
 			//    NOTE: The number of digits in your string will be
 			//       yourStringVariable.length()
 	for(int j=0; j<6; j++){
-	}
+	
 	
 				// 5. Ask the user for the NEXT digit of pi.
 String piAnswer=JOptionPane.showInputDialog(null, "what is the next digit of pi?");
@@ -49,8 +49,10 @@ int answer=Integer.parseInt(piAnswer);
 if(answer==5) {
 	JOptionPane.showMessageDialog(null, "correct");
 }else {
-	JOptionPane.showMessageDialog(null, "incorrect");
+	JOptionPane.showMessageDialog(null, "incorrect. GAME OVER");
+	break;
 }
+	}
 					// 7. If they are correct, print out "correct".
 
 					// 8. If they are not, print out "incorrect" and tell them
